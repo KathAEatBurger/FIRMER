@@ -1,4 +1,4 @@
-# Log Management System
+# Log Management System (ส่งงานที่ branch main)
 
 ระบบจัดการและตรวจสอบ Log (Frontend) พัฒนาด้วย **React** และ **Ant Design**
 รองรับการ Export ไฟล์ Excel/PDF และมีระบบจัดการสิทธิ์ (Admin/User)
