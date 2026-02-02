@@ -20,21 +20,21 @@
 
 ```bash
 npm install
+```
 หมายเหตุ: หากยังไม่ได้สร้างไฟล์ package.json หรือต้องการลง Library แยกรายตัว ให้ใช้คำสั่งนี้:
 
-Bash
+```
 npm install antd @ant-design/icons dayjs xlsx jspdf jspdf-autotable
 ```
 
 ## 3. การเตรียมไฟล์ข้อมูล (Mock Data)
 เพื่อให้ระบบทำงานได้ ตรวจสอบให้แน่ใจว่ามีไฟล์ JSON อยู่ในโฟลเดอร์ src/ ดังนี้:
 
-Plaintext
 src/
-├── App.jsx
-├── main.jsx (หรือ index.js)
-├── internQuest.user.json   <-- ข้อมูล User
-└── internQuest.log.json    <-- ข้อมูล Log
+
+internQuest.user.json   <-- ข้อมูล User
+
+internQuest.log.json    <-- ข้อมูล Log
 
 ## 4. การรันโปรเจกต์ (Run Project)
 ใช้คำสั่งผ่าน Terminal ของ VS Code:
