@@ -1,0 +1,140 @@
+[{
+  "_id": {
+    "$oid": "6971178f323017deaeaaee83"
+  },
+  "username": "alice",
+  "password": "$2b$09$DaCa6AHh/xM.dVSmFY8KWumzktRT.vpOtl4dis3YUrf9nQDgtrr/G",
+  "code": "001",
+  "prefix": "Ms.",
+  "firstname": "ALICE",
+  "lastname": "JOHNSON",
+  "level": "admin",
+  "isActive": true,
+  "isDel": false
+},
+{
+  "_id": {
+    "$oid": "6971178f323017deaeaaee85"
+  },
+  "username": "bob",
+  "password": "$2b$09$diS1PSJYx4l3xftmqyQM0.6C9JxXAXDop5XVaflj6lC3c0YfyPZuS",
+  "code": "002",
+  "prefix": "Mr.",
+  "firstname": "BOB",
+  "lastname": "SMITH",
+  "level": "admin",
+  "isActive": true,
+  "isDel": false
+},
+{
+  "_id": {
+    "$oid": "6971178f323017deaeaaee87"
+  },
+  "username": "charlie",
+  "password": "$2b$09$MbO5TGOcjNB5xyRNyKHbQu5P35HQM/7yE3EoF1VOZjhkYIuYTKZcS",
+  "code": "003",
+  "prefix": "Mr.",
+  "firstname": "CHARLIE",
+  "lastname": "BROWN",
+  "level": "admin",
+  "isActive": true,
+  "isDel": false
+},
+{
+  "_id": {
+    "$oid": "6971178f323017deaeaaee89"
+  },
+  "username": "dave",
+  "password": "$2b$09$o2a6UiopPM4SobOuO8lRxuuV61ocjF9rxEaB2Z2eyIwQzgNLlB12q",
+  "code": "004",
+  "prefix": "Mr.",
+  "firstname": "DAVE",
+  "lastname": "MILLER",
+  "level": "admin",
+  "isActive": true,
+  "isDel": false
+},
+{
+  "_id": {
+    "$oid": "6971178f323017deaeaaee8b"
+  },
+  "username": "eve",
+  "password": "$2b$09$Xik/ZWdrb.C75rcmpc4IUefLMuncHIa2zk3tR6SXsvsKRyJtwdeSK",
+  "code": "005",
+  "prefix": "Ms.",
+  "firstname": "EVE",
+  "lastname": "DAVIS",
+  "level": "user",
+  "isActive": true,
+  "isDel": false
+},
+{
+  "_id": {
+    "$oid": "6971178f323017deaeaaee8d"
+  },
+  "username": "frank",
+  "password": "$2b$09$WoFOljJZRkVxg6QKAK2OL.V/861U7FrPMO6jUtnMBHabWOJ.omzEi",
+  "code": "006",
+  "prefix": "Mr.",
+  "firstname": "FRANK",
+  "lastname": "WILSON",
+  "level": "user",
+  "isActive": true,
+  "isDel": true
+},
+{
+  "_id": {
+    "$oid": "6971178f323017deaeaaee8f"
+  },
+  "username": "grace",
+  "password": "$2b$09$ix3/bw1t/lvnW2dFw38aAOmh5ODbz5CxmfhgIViI8U7j756AHO9Mm",
+  "code": "007",
+  "prefix": "Ms.",
+  "firstname": "GRACE",
+  "lastname": "TAYLOR",
+  "level": "user",
+  "isActive": false,
+  "isDel": true
+},
+{
+  "_id": {
+    "$oid": "6971178f323017deaeaaee91"
+  },
+  "username": "heidi",
+  "password": "$2b$09$LZUcRpPFSOcQQrbH/HaiB.o0ZC5QJAOnFiHoqQCFBqXh63HD3X4I.",
+  "code": "008",
+  "prefix": "Ms.",
+  "firstname": "HEIDI",
+  "lastname": "ANDERSON",
+  "level": "user",
+  "isActive": false,
+  "isDel": false
+},
+{
+  "_id": {
+    "$oid": "6971178f323017deaeaaee93"
+  },
+  "username": "ivan",
+  "password": "$2b$09$EzmPZsy5LY.Nr2JSbV/64OMlUhc.tpxSfsNcWHUvUxxKeizovtWPu",
+  "code": "009",
+  "prefix": "Mr.",
+  "firstname": "IVAN",
+  "lastname": "PETROV",
+  "level": "user",
+  "isActive": false,
+  "isDel": false
+},
+{
+  "_id": {
+    "$oid": "6971178f323017deaeaaee95"
+  },
+  "username": "judy",
+  "password": "$2b$09$lW4KaE87MSmndcpIDg5PjOT44kulXGtbWhU8d6VZo.GAlHe0PU65.",
+  "code": "010",
+  "prefix": "Ms.",
+  "firstname": "JUDY",
+  "lastname": "THOMPSON",
+  "level": "user",
+  "isActive": false,
+  "isDel": true
+}]

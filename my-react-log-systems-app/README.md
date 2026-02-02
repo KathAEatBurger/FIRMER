@@ -1,16 +1,50 @@
-# React + Vite
+# Log Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ระบบจัดการและตรวจสอบ Log (Frontend) พัฒนาด้วย **React** และ **Ant Design**
+รองรับการ Export ไฟล์ Excel/PDF และมีระบบจัดการสิทธิ์ (Admin/User)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 1. สิ่งที่ต้องมี (Prerequisites)
+ก่อนเริ่มรันโปรเจกต์ ต้องแน่ใจว่าเครื่องคอมพิวเตอร์ติดตั้ง:
 
-## React Compiler
+* **Node.js** (แนะนำเวอร์ชัน **v22.22.0** )
+    * [ดาวน์โหลด Node.js ที่นี่](https://nodejs.org/)
+* **Editor**: Visual Studio Code (VS Code)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 2. การติดตั้ง (Installation)
 
-## Expanding the ESLint configuration
+1.  **Clone** หรือ **Download** โปรเจกต์ลงมาที่เครื่อง
+2.  เปิด **Terminal** (ใน VS Code กด `Ctrl` + `~`) แล้วเข้าไปที่โฟลเดอร์โปรเจกต์
+3.  ติดตั้ง Library ที่จำเป็นด้วยคำสั่ง:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+หมายเหตุ: หากยังไม่ได้สร้างไฟล์ package.json หรือต้องการลง Library แยกรายตัว ให้ใช้คำสั่งนี้:
+
+Bash
+npm install antd @ant-design/icons dayjs xlsx jspdf jspdf-autotable
+```
+
+## 3. การเตรียมไฟล์ข้อมูล (Mock Data)
+เพื่อให้ระบบทำงานได้ ตรวจสอบให้แน่ใจว่ามีไฟล์ JSON อยู่ในโฟลเดอร์ src/ ดังนี้:
+
+Plaintext
+src/
+├── App.jsx
+├── main.jsx (หรือ index.js)
+├── internQuest.user.json   <-- ข้อมูล User
+└── internQuest.log.json    <-- ข้อมูล Log
+
+## 4. การรันโปรเจกต์ (Run Project)
+ใช้คำสั่งผ่าน Terminal ของ VS Code:
+
+กรณีใช้ Vite (แนะนำ):
+
+Bash
+npm run dev
+เมื่อรันสำเร็จ ระบบจะแสดง Link ใน Terminal:
+
+ให้กด Ctrl + Click ที่ Link http://localhost:5173 เพื่อเปิด Browser
+
+(หรือ http://localhost:3000 หากใช้ Create React App)
