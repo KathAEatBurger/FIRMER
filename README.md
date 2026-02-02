@@ -41,8 +41,10 @@ internQuest.log.json    <-- ข้อมูล Log
 
 กรณีใช้ Vite (แนะนำ):
 
-Bash
+```
 npm run dev
+```
+
 เมื่อรันสำเร็จ ระบบจะแสดง Link ใน Terminal:
 
 ให้กด Ctrl + Click ที่ Link http://localhost:5173 เพื่อเปิด Browser
